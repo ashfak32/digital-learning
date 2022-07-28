@@ -12,7 +12,16 @@
 .carousel-img-overlay {
   filter: brightness(60%);
 }
+.custom-prev{
+ width: 50px;
+  height: 50px;
 
+}
+.custom-next{
+  width: 50px;
+  height: 50px;
+  transform: translate(50%, -50%);
+}
 @media only screen and (max-width: 576px) {
   .custom-carousel-caption {
     width: 80%;
