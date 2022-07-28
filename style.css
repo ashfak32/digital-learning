@@ -49,6 +49,9 @@
   .explore-section img{
     min-height: 600px;
   }
+  .explore-section .card-title{
+    font-size: 30px;
+  }
   
 }
 /* carousel section css start */
