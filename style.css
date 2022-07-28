@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* carousel section css start */
+.custom-carousel-caption {
+  bottom: unset;
+}
+
+.carousel-img-overlay {
+  filter: brightness(60%);
+}
+
+@media only screen and (max-width: 576px) {
+  .custom-carousel-caption {
+    width: 80%;
+  }
+
+  .slider-title {
+    font-size: 30px;
+  }
+
+  .carousel-caption p {
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+  }
+}
+@media only screen and (min-width:576px) and (max-width:992px){
+  .slider-title {
+    font-size: 35px;
+  }
+}
+/* carousel section css start */
