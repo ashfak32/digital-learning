@@ -22,6 +22,7 @@
   height: 50px;
   transform: translate(50%, -50%);
 }
+/* carousel media quary section css start */
 @media only screen and (max-width: 576px) {
   .custom-carousel-caption {
     width: 80%;
