@@ -36,5 +36,9 @@
   .slider-title {
     font-size: 35px;
   }
+  .explore-section img{
+    min-height: 600px;
+  }
+  
 }
 /* carousel section css start */
